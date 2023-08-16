@@ -8,7 +8,7 @@ In this project, we aimed to classify resumes into 25 different categories based
 ### Project Steps
 **Step I: Importing Libraries**
 
-We imported essential libraries such as pandas, scikit-learn modules, and others to facilitate data manipulation, preprocessing, modeling, and evaluation.
+Imported essential libraries such as pandas, scikit-learn modules, and others to facilitate data manipulation, preprocessing, modeling, and evaluation.
 
 **Step II: Importing Dataset**
 
@@ -16,7 +16,7 @@ The dataset containing resumes and their corresponding labels was imported for a
 
 **Step III: Data Cleaning and Preprocessing**
 
-We noticed that certain documents contained irrelevant special characters, potentially introduced during database storage and retrieval. To address this, we performed text preprocessing steps including converting text to lowercase, removing URLs, hashtags, special characters, punctuation marks, newlines, non-ASCII characters, and leading/trailing spaces. Tokenization and stop word removal were applied to facilitate model understanding.
+Noticed that certain documents contained irrelevant special characters, potentially introduced during database storage and retrieval. To address this, we performed text preprocessing steps including converting text to lowercase, removing URLs, hashtags, special characters, punctuation marks, newlines, non-ASCII characters, and leading/trailing spaces. Tokenization and stop word removal were applied to facilitate model understanding.
 
 **Step IV: Dataset Overview**
 
@@ -28,15 +28,15 @@ During data inspection, we observed the presence of special characters that coul
 
 **Step VI: Adding Labels to Target Variables**
 
-We added labels to the target variables to represent the different categories of resumes.
+Added labels to the target variables to represent the different categories of resumes.
 
 **Step VII: Defining Independent and Dependent Variables**
 
-We defined the independent variable (features) as the preprocessed resume text and the dependent variable as the resume categories.
+Defined the independent variable (features) as the preprocessed resume text and the dependent variable as the resume categories.
 
 **Step VIII: Feature Encoding Using TF-IDF**
 
-We used the Term Frequency-Inverse Document Frequency (TF-IDF) technique to encode the textual data into a numeric format suitable for model training.
+Used the Term Frequency-Inverse Document Frequency (TF-IDF) technique to encode the textual data into a numeric format suitable for model training.
 
 **Step IX: Data Splitting**
 
@@ -44,11 +44,11 @@ The dataset was split into training and test sets to assess model performance.
 
 **Step X: Model Building**
 
-We employed various classification algorithms, including Logistic Regression, Decision Tree Classifier, K-Neighbors Classifier, Multinomial Naive Bayes, AdaBoost Classifier, Gradient Boosting Classifier, Random Forest Classifier, XGBoost Classifier, and Support Vector Classifier.
+Employed various classification algorithms, including Logistic Regression, Decision Tree Classifier, K-Neighbors Classifier, Multinomial Naive Bayes, AdaBoost Classifier, Gradient Boosting Classifier, Random Forest Classifier, XGBoost Classifier, and Support Vector Classifier.
 
 **Step XI: Model Performance Evaluation**
 
-We evaluated model performance using accuracy, precision, recall, F1-score, and balanced accuracy metrics on both the training and test sets.
+Evaluated model performance using accuracy, precision, recall, F1-score, and balanced accuracy metrics on both the training and test sets.
 
 **Step XII: Model Selection**
 
@@ -56,11 +56,11 @@ After comparing model performance, we selected the Logistic Regression model due
 
 **Step XIII: Model Evaluation**
 
-We performed a detailed evaluation of the selected model using classification reports and confusion matrices for both the training and test datasets.
+Performed a detailed evaluation of the selected model using classification reports and confusion matrices for both the training and test datasets.
 
 **Step XIV: Cross-Validation**
 
-We conducted cross-validation using accuracy as a metric, achieving a mean accuracy of approximately 99.44%.
+Conducted cross-validation using accuracy as a metric, achieving a mean accuracy of approximately 99.44%.
 
 **Conclusion**
 
